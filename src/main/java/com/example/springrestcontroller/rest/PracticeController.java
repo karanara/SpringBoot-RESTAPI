@@ -41,6 +41,7 @@ public class PracticeController {
 		return students.get(studentid);
 		
 	}
+	/*Adding this in Global Exception case in Student REst Exception Handler for best practice and centralizing exception handling
 	//Adding a exceptional handler
 	@ExceptionHandler
 	public ResponseEntity<StudentErrorResponse> handleException(StudentNotFoundException ex){
@@ -60,6 +61,6 @@ public class PracticeController {
 		error.setTimeStamp(System.currentTimeMillis());
 
 		return new ResponseEntity<>(error,HttpStatus.BAD_REQUEST);
-	}
+	}*/
 
 }
