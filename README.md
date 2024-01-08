@@ -17,6 +17,9 @@ Service Layer::
   Service Design Facade Pattern where it integrates data from multiple sources
   @Service Annotation --applied to service implementation
   In service implementation,leave @Transactional to methods in service layer.
+  #architecture
+Employee rest controller ---- employee service --  employee DAO--- database 
+
 
   Instead of Using JPA API,i ask to use Spring Data JPA - creates DAO form me -plugin my entity type and primary key and give me all of basic CRUD features for free.
   Spring Data JPA provides the interface -- JpaRepository .
